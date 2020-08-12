@@ -1,0 +1,17 @@
+.error-div{
+
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    z-index: 5;
+    flex-direction: column;
+}
+.error-contant{
+    font-size: 100px;
+}

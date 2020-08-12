@@ -1,0 +1,72 @@
+.navigationBar{
+    background: var(--info);
+}
+.navigationBar .active{
+	border-bottom: 2px solid orange;
+}
+.navigationBar .navbar .logo span{
+	font-size: 30px;
+    margin-left: 15%;
+    color: orange;
+}
+.navigationBar .navbar .navbar-nav li{
+	list-style: none;
+	font-size: 20px;
+    margin-right: 87px;
+    color: white;
+}
+
+.navigationBar .navbar .navbar-nav  a {
+	color: white;
+}
+
+
+.navigationBar .navbar .nav-button .button{
+	font-size: 18px;
+    border-radius: 50px;
+    background: none;
+    width: 50%;
+    border: 2px solid orange;
+    margin-right: 20px;
+    color: white;
+    padding: 3px 33px;
+    text-decoration: none;
+}
+.navigationBar .navbar .collapse{
+	justify-content: space-between;
+}
+.navigationBar .navbar .companyBand{
+	width: 20%;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+}
+.navigationBar .navbar .menu-list{
+	display: flex;
+    width: 100%;
+    justify-content: center;
+    z-index: 5;
+}
+.navigationBar .navbar .nav-button {
+	width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 5;
+}
+.navigationBar .navbar .navbar-toggler{
+	background: orange;
+	display: flex;
+    flex-direction: column;
+  
+}
+
+ .navigationBar .navbar .navbar-toggler span{
+   	background: white;
+   	height: 2px;
+   }
+
+.navigationBar .navbar .navbar-toggler .one,
+.navigationBar .navbar .navbar-toggler .two,
+.navigationBar .navbar .navbar-toggler .three{
+	margin: 2px 0px;
+}
